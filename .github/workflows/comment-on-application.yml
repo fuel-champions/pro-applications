@@ -1,0 +1,29 @@
+name: Add comment to new Champion application
+on:
+  issues:
+    types:
+      - labeled
+  workflow_dispatch:
+  
+jobs:
+  add-comment:
+    if: (github.event_name == 'workflow_dispatch') || (github.event.label.name == 'application')
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Add comment
+        uses: peter-evans/create-or-update-comment@v3
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          body: |
+            Thank you for your application to become a Champion! We will review your application and get back to you as soon as possible. ✨
+
+            A quick note about our process:
+
+            We check applications on a rolling basis, so it may take a few days for us to get back to you.
+            We are committed to checking every application within 7 days of submission. 👍
+
+            You are welcome to review the tiers of the program and more details in the [start-here repository](https://github.com/fuel-champions/start-here).
+
+            Have any questions? You're welcome to drop a comment in this issue and we'll do our best to clarify! 🙌
