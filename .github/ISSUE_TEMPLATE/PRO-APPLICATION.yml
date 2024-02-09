@@ -1,12 +1,12 @@
-name: Pioneer Application
-description: Use this form to apply as a Pioneer to the Fuel Developer Champions program.
+name: Pro Application
+description: Use this form to apply as a Pro to the Fuel Developer Champions program.
 title: "[Application] : "
 labels: ["application"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thank you for taking the time to submit an application to the Fuel Developer Champions program as a Pioneer! Pioneers are developers who are starting their journey into Fuel and looking for a community to level up their skills with, and we are excited to have you join us.
+        Thank you for taking the time to submit an application to the Fuel Developer Champions program as a Pro! Pros are developers who are starting their journey into Fuel and looking for a community to level up their skills with, and we are excited to have you join us.
   - type: markdown
     attributes:
       value: |

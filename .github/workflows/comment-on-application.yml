@@ -1,4 +1,4 @@
-name: Add comment to new Champion application
+name: Add comment to new Champion nomination
 on:
   issues:
     types:
@@ -17,12 +17,12 @@ jobs:
         with:
           issue-number: ${{ github.event.issue.number }}
           body: |
-            Thank you for your application to become a Champion! We will review your application and get back to you as soon as possible. ✨
+            Thank you for nominating someone to join the Champions program! We will review the nomination and get back to you as soon as possible. ✨
 
             A quick note about our process:
 
-            We check applications on a rolling basis, so it may take a few days for us to get back to you.
-            We are committed to checking every application within 7 days of submission. 👍
+            We check nominations on a rolling basis, so it may take a few days for us to get back to you.
+            We are committed to checking every nomination within 7 days of submission. 👍
 
             You are welcome to review the tiers of the program and more details in the [start-here repository](https://github.com/fuel-champions/start-here).
 
