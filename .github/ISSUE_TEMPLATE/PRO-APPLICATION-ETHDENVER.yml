@@ -49,7 +49,6 @@ body:
         - "To publish an ABI for protocols or systems"
         - "To serve as predicates for smart contracts"
         - "To make your coffee faster"
-      required: true
   - type: checkboxes
     id: code-of-conduct-agreement
     attributes:
