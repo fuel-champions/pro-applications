@@ -1,0 +1,60 @@
+name: ETHDenver Pro Application
+description: Use this form to apply as a Pro to the Fuel Developer Champions program and claim your limited edition merch at ETHDenver! This form is only applicable for attendees at ETHDenver 2024.
+title: "[Application] : "
+labels: ["application"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to submit an application to the Fuel Developer Champions program as a Pro! Pros are developers who are starting their journey into Fuel and looking for a community to level up their skills with, and we are excited to have you join us.
+
+        Please fill out this form to the best of your ability. At the end is a multiple choice trivia question to test your knowledge of Fuel! 
+        The answer to this question can be found on the [Fuel docs](https://docs.fuel.network). Get the correct answer and show this completed form to a member of the team at the Fuel booth and receive your limited edition exclusive Champion merch. First come, first served!
+  - type: markdown
+    attributes:
+      value: |
+        Please fill out each section to the best of your ability. The more information you can provide the better we are able to evaluate your
+        application.
+  - type: textarea
+    id: proof-of-code
+    attributes:
+      label: Proof of your code
+      description: Share with us the links to GitHub repos where you have been a code contributor for more than one instance to a merged pull request in the past three months in a web3 project, preferably but not exclusively a Fuel project.
+      placeholder: Add links to your code contribution(s) here.
+  - type: textarea
+    id: fuel-forum-activity
+    attributes:
+      label: Activity on the Fuel forum
+      description: | 
+        Share with us the link to your Fuel Discourse forum (https://forum.fuel.network) profile. We will look to see for the following:
+        - You have been active on the forum in the past 3 months
+        - What kind of activity you have on the forum in that time, e.g. asking questions, helping others, etc.
+      placeholder: Add links to your forum profile here.
+  - type: dropdown
+    id: ambassador-program
+    attributes:
+      label: Fuel Ambassador Program
+      description: Are you a current Fuel Ambassador?
+      options:
+        - "Yes, I'm a Fuel Ambassador"
+        - "No, I'm not a Fuel Ambassador"
+  - type: dropdown
+    id: trivia-question
+    attributes:
+      label: Trivia Question
+      description: What is the main purpose of a 'script' in Sway according to the Fuel documentation?
+      options:
+        - "To deploy reusable code as a library"
+        - "For complex on-chain interactions that are not persistent"
+        - "To publish an ABI for protocols or systems"
+        - "To serve as predicates for smart contracts"
+        - "To make your coffee faster"
+      required: true
+  - type: checkboxes
+    id: code-of-conduct-agreement
+    attributes:
+      label: Code of Conduct Agreement
+      description: I have read and agree to the [Fuel Developer Champions Code of Conduct](https://github.com/fuel-champions/code-of-conduct).
+      options:
+      - label: I agree to follow the Code of Conduct
+        required: true
