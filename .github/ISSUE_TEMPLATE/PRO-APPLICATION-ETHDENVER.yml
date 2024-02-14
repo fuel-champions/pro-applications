@@ -8,13 +8,7 @@ body:
       value: |
         Thank you for taking the time to submit an application to the Fuel Developer Champions program as a Pro! Pros are developers who are starting their journey into Fuel and looking for a community to level up their skills with, and we are excited to have you join us.
 
-        Please fill out this form to the best of your ability. At the end is a multiple choice trivia question to test your knowledge of Fuel! 
-        The answer to this question can be found on the [Fuel docs](https://docs.fuel.network). Get the correct answer and show this completed form to a member of the team at the Fuel booth and receive your limited edition exclusive Champion merch. First come, first served!
-  - type: markdown
-    attributes:
-      value: |
-        Please fill out each section to the best of your ability. The more information you can provide the better we are able to evaluate your
-        application.
+        At the end of this form is a multiple choice trivia question to test your knowledge of Fuel! The answer to this question can be found on the [Fuel Docs Hub](https://docs.fuel.network). Get the correct answer and show this completed form to a member of the team at the Fuel booth and receive your limited edition exclusive Champion merch. First come, first served!
   - type: textarea
     id: proof-of-code
     attributes:
